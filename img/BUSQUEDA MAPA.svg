@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="48px" height="48px" viewBox="0 0 48 48" enable-background="new 0 0 48 48" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			<path fill="#FF2B00" d="M40.611,17.127c0,9.174-16.612,30.359-16.612,30.359S7.388,26.301,7.388,17.127
+				S14.825,0.514,23.999,0.514S40.611,7.953,40.611,17.127z"/>
+			<path fill="#CB0000" d="M40.611,17.127c0-9.174-7.438-16.613-16.612-16.613v46.972C23.999,47.486,40.611,26.301,40.611,17.127z"
+				/>
+			<circle fill="#FF5533" cx="24" cy="17.266" r="14.337"/>
+			<circle fill="#B20100" cx="24" cy="17.266" r="13.843"/>
+			<circle fill="#FFFFFF" cx="23.999" cy="17.266" r="12.586"/>
+		</g>
+	</g>
+	
+		<image overflow="visible" enable-background="new    " width="200" height="200" xlink:href="../icono piramide.png"  transform="matrix(0.0942 0 0 0.0942 15.2856 8.9922)">
+	</image>
+</g>
+</svg>

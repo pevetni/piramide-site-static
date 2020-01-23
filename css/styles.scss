@@ -96,6 +96,10 @@ hr {
     color: #df2121;
 }
 
+.navbar .navbar-nav .nav-link a:active{
+    text-decoration: underline!important;
+}
+
 .navbar .navbar-nav .nav-link:hover {
     color: rgb(75, 23, 23);
 }
@@ -471,3 +475,7 @@ hr {
 #findus-sidebar img:hover {background: #8f9192;}
 #findus-sidebar img,
 #findus-sidebar img:before {}
+
+/**** CLIENTES *****/
+
+
