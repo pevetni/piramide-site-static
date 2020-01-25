@@ -46,12 +46,27 @@ hr {
     }
 }
 
-@media (min-width: 1666px) {
+@media (min-width: 1600px) {
 
     #header #easy{
-        padding-top: 15%!important;
+        padding-top: 10px!important;
     }
 }
+
+@media (max-width: 1380px) {
+
+    #header #easy{
+        padding-top: 50px!important;
+    }
+}
+
+@media (max-width: 1110px) {
+
+    #header #easy{
+        padding-top: 70px!important;
+    }
+}
+
 
 
 /*SOCIAL MEDIA BAR*/
@@ -134,13 +149,14 @@ hr {
 }
 
 #header .header-right {
-    width: 20%;
-    height: 20%;
     background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 10px;
     box-shadow: -1px 15px 30px -12px black;
-    opacity: 0.65;
+    opacity: 0.85;
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
 }
 
 #header #cotizar{
@@ -160,6 +176,7 @@ hr {
 
 #header a {
     color: red;
+    font-size: 12px;
 }
 
 #header a:hover {
