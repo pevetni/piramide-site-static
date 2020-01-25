@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+
+body, html {
+    height: 100%;
+    font-family: 'Myriad Pro Bold', sans-serif;
+    overflow-x: hidden;
+}
+
+.standar-space{
+    padding-top: 2%;
+}
+
+hr {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border: 0;
+    border-top: 1px solid rgb(219, 219, 219);
+    margin-left: -15px;
+    width: 103%;
+}
+
+@media (min-width: 992px) {
+    #navigation-bar {
+        display: none!important;
+    }
+}
+
+/*SOCIAL MEDIA BAR*/
+
+#social-sidebar {
+	right: 0;
+	position: fixed;
+    top: 30%;
+    z-index: 99;
+}
+#social-sidebar li:first-child img { border-top-left-radius: 5px; }
+#social-sidebar li:last-child img { border-bottom-left-radius: 5px; }
+ 
+#social-sidebar img {
+	background: rgba(255, 255, 255, 0.877);
+	color: #fff;
+    text-decoration: none;
+	display: block;
+	height: 50px;
+	width: 50px;  
+	font-size: 24px;
+	line-height: 50px;
+	position: relative;
+	text-align: center;
+    cursor: pointer;
+}
+ 
+#social-sidebar img:hover,
+#social-sidebar img span,
+#social-sidebar img span:before {background: #8f9192;}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid #dedede;
+    font-family: 'Myriad Pro', sans-serif;
+    font-size: 14px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #df2121;
+}
+
+.navbar .navbar-nav .nav-link a:active{
+    text-decoration: underline!important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: rgb(75, 23, 23);
+}
+
+.navbar-toggler-icon {
+    color: #df2121;
+}
+
+/*HEADER*/
+
+#header {
+    color: white;
+    align-items: center;
+}
+
+#header img{
+    width: -webkit-fill-available;
+}
+
+
+#header h1 {
+    color: red;
+    font-size: 32px;  
+}
+
+#header h2 {
+    color: rgb(145, 145, 145);
+    font-size: 16px;
+}
+
+#logos .ico-logo{
+    
+    padding: 1rem;
+}
+
+#logos img{
+    background-color: rgba(231, 231, 231, 0.788);
+    width: -webkit-fill-available;
+    border:1px solid rgb(175, 175, 175);
+}
+
+#footer {
+    background: url(../img/pie_de_pagina-min.png) center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    align-items: center;
+    min-height: 750px;
+    padding-top: 2%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#footer .header-right {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: -1px 15px 30px -12px black;
+}
+
+#footer a {
+    color: red;
+    font-size: 12px;
+}
+
+#footer a:hover {
+    color: rgb(75, 23, 23);
+}
+
+#footer h1 {
+    color: rgb(145, 145, 145);
+    font-size: 18px;  
+}
+
+#footer h2 {
+    color: rgb(145, 145, 145);
+    font-size: 14px;
+}
+
+#footer span {
+    color: rgb(145, 145, 145);
+    font-size: 8px;
+    margin-top: 0px;
+}
+
+#footer #logo {
+    height: 75px;
+    width: 180px;
+    padding-bottom: 20px;;
+}
+
+#footer  #copyright {
+    color: rgb(75, 74, 74);
+    font-size: 11px;
+    margin-top: 0px;
+}
