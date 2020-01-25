@@ -11,7 +11,7 @@ hr {
     margin-top: 0rem;
     margin-bottom: 0rem;
     border: 0;
-    border-top: 1px solid rgb(126, 126, 126);
+    border-top: 1px solid rgb(219, 219, 219);
     margin-left: -15px;
     width: 103%;
 }
@@ -46,12 +46,27 @@ hr {
     }
 }
 
-@media (min-width: 1666px) {
+@media (min-width: 1600px) {
 
     #header #easy{
-        padding-top: 15%!important;
+        padding-top: 10px!important;
     }
 }
+
+@media (max-width: 1380px) {
+
+    #header #easy{
+        padding-top: 50px!important;
+    }
+}
+
+@media (max-width: 1110px) {
+
+    #header #easy{
+        padding-top: 70px!important;
+    }
+}
+
 
 
 /*SOCIAL MEDIA BAR*/
@@ -118,6 +133,8 @@ hr {
     align-items: center;
     min-height: 750px;
     padding-top: 25%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -136,10 +153,30 @@ hr {
     padding: 30px;
     border-radius: 10px;
     box-shadow: -1px 15px 30px -12px black;
+    opacity: 0.85;
+    width: 100%;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+#header #cotizar{
+    background-color: red;
+    opacity: 1;
+}
+
+#header .header-right div .question{
+    color: rgb(41, 38, 38);
+    text-align: right;
+}
+
+#header .header-right div .comeback{
+    color: rgb(248, 8, 8);
+    text-align: right;
 }
 
 #header a {
     color: red;
+    font-size: 12px;
 }
 
 #header a:hover {
@@ -149,11 +186,13 @@ hr {
 #statistics {
     height: 100%;
     background-color: rgba(231, 231, 231, 0.788);
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #statistics h1 {
     color: rgb(145, 145, 145);
-    font-size: 56px;  
+    font-size: 64px;  
 }
 
 #statistics h2 {
@@ -171,6 +210,11 @@ hr {
     width: 100%!important;
 }
 
+#header {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 #trust span {
     color:red;
     font-size: 28px;
@@ -178,20 +222,23 @@ hr {
 
 #trust .trust-space{
     padding-top: 4%;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
 #trust .trust-titles{
     color: rgb(145, 145, 145);
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #trust .trust-descriptions{
     color: rgb(145, 145, 145);
-    font-size: 10px;
+    font-size: 14px;
 }
 
 #products {
     background-color: rgba(231, 231, 231, 0.788);
+    
 }
 
 #products .products-space{
@@ -218,13 +265,25 @@ hr {
     width: inherit;
 }
 
+#products ul{
+    
+    padding-bottom: 0px;
+}
+
 #findus {
     background-color:white;
+    padding-top: 20px;
+    
+}
+
+#findus .findus-space{
+    padding-top: 4%;
 }
 
 #findus span {
     color:red;
     font-size: 28px;
+    
 }
 
 #findus label{
@@ -246,8 +305,16 @@ hr {
     border-radius: $border-radius-size + 5;
     text-align: center;
     box-shadow: -1px 15px 30px -12px black;
-    width: 200px;
+    width: 300px;
     margin-top: 250px;
+}
+
+#findus .clash-card p{
+    margin-bottom: 5px;
+}
+
+#findus #card{
+    margin-top: 200px;
 }
 
 #findus .clash-card-sm {
@@ -262,7 +329,7 @@ hr {
     padding: 20px;
     margin-bottom: 10px;  
     color:rgb(116, 116, 116);
-    font-size: 9px;
+    font-size: 12px;
 }
 
 #findus .titulo{
@@ -296,6 +363,16 @@ hr {
     cursor: pointer;
 }
 
+#findus-map img{
+    margin-top: 2%;
+    height: 80%;
+	width: 80%; 
+}
+
+#testimony {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 #testimony span {
     color:red;
@@ -308,6 +385,14 @@ hr {
     text-align: center;
 }
 
+#testimony .carousel-indicators li {
+    padding-top: 5px;;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background-color: red;
+  }
+
 #testimony .clash-card {
     background: white;
     border-radius: $border-radius-size + 5;
@@ -315,6 +400,7 @@ hr {
     text-align: left;
     box-shadow: -1px 15px 30px -12px black;
     margin-bottom: 35px;
+    margin-left: 30px;
 }
 
 #testimony .clash-card__image {
@@ -334,6 +420,7 @@ hr {
     margin-bottom: 10px;  
     color:rgb(116, 116, 116);
     font-size: small;
+    text-align: justify;
 }
 
 #testimony .clearfix:after {
@@ -381,10 +468,16 @@ hr {
 
 #news {
     background-color: rgba(231, 231, 231, 0.788);
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #news .news-space{
     padding-top: 4%;
+}
+
+#news .news-space-bottom{
+    padding-top: 2%;
 }
 
 #news span {
@@ -411,6 +504,7 @@ hr {
     font-size: 10px;
     margin-left: 25px;
     margin-top: 20px;
+    text-align: justify;
 }
 
 #news a {
@@ -420,6 +514,13 @@ hr {
     bottom:0;
     position: absolute;
     margin-left: 14px;
+}
+
+#news #readMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
 }
 
 #news img{
@@ -437,7 +538,9 @@ hr {
     color: white;
     align-items: center;
     min-height: 750px;
-    padding-top: 50%;
+    padding-top: 2%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #footer .header-right {
@@ -458,17 +561,29 @@ hr {
 
 #footer h1 {
     color: rgb(145, 145, 145);
-    font-size: 12px;  
+    font-size: 18px;  
 }
 
 #footer h2 {
     color: rgb(145, 145, 145);
-    font-size: 10px;
+    font-size: 14px;
 }
 
 #footer span {
     color: rgb(145, 145, 145);
     font-size: 8px;
+    margin-top: 0px;
+}
+
+#footer #logo {
+    height: 75px;
+    width: 180px;
+    padding-bottom: 20px;;
+}
+
+#footer  #copyright {
+    color: rgb(75, 74, 74);
+    font-size: 11px;
     margin-top: 0px;
 }
 
