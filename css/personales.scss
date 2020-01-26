@@ -94,11 +94,51 @@ hr {
 
 
 #header h1 {
-    color: red;
+    color: rgb(145, 145, 145);
     font-size: 32px;  
 }
 
 #header h2 {
+    color: rgb(145, 145, 145);
+    font-size: 16px;
+}
+
+#header .fondo-minimenu{
+    background: rgba(0, 0, 0, 0.877);
+}
+
+#header a{
+    color: white;
+}
+
+#responsabilidad img{
+    width: inherit;
+    margin-left: -16px;
+}
+
+#responsabilidad h1 {
+    color: rgb(145, 145, 145);
+    font-size: 32px;  
+}
+
+#responsabilidad h2 {
+    color: rgb(145, 145, 145);
+    font-size: 16px;
+}
+
+#cobertura img{
+    max-width: 100%;
+    width: inherit;
+    margin-right: -15px;
+    float: right;
+}
+
+#cobertura h1 {
+    color: rgb(145, 145, 145);
+    font-size: 32px;  
+}
+
+#cobertura h2 {
     color: rgb(145, 145, 145);
     font-size: 16px;
 }
