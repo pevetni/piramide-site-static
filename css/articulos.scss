@@ -21,13 +21,6 @@ hr {
         display: none!important;
     }
 
-    #testimony .imagen{
-        vertical-align: middle;
-        border-style: none;
-        margin-left: 70%!important;
-        margin-top: -10%!important;
-    }
-
     #header{
         padding-top: 12%!important;
         height: 80%!important;
@@ -72,7 +65,13 @@ hr {
     #news .news-principal-description{
         margin-top: 0px!important;
     }
+
+
+    #testimony .carousel-indicators{
+        bottom: 0px!important;
+    }
 }
+
 
 
 
@@ -190,191 +189,122 @@ hr {
     color: rgb(75, 23, 23);
 }
 
-#statistics {
-    height: 100%;
-    background-color: rgba(231, 231, 231, 0.788);
+#automovil {
     padding-left: 50px;
     padding-right: 50px;
 }
 
-#statistics h1 {
-    color: rgb(145, 145, 145);
-    font-size: 64px;  
-}
-
-#statistics h2 {
-    color: rgb(145, 145, 145);
-    font-size: 14px;
-}
-
-#statistics .container{
-    height: 100%!important;
-    width: 100%!important;
-}
-
-#statistics .row{
-    height: 80%!important;
-    width: 100%!important;
-}
-
-#header {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#trust span {
+#automovil span {
     color:#ED1C24;
     font-size: 28px;
 }
 
-#trust .trust-space{
-    padding-top: 4%;
-    padding-right: 15%;
-    padding-left: 15%;
+#automovil .slide-container {
+    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 
-#trust .trust-titles{
-    color: rgb(145, 145, 145);
-    font-size: 18px;
-}
+#automovil .carousel-indicators li {
+    padding-top: 5px;;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background-color: #ED1C24;
+  }
 
-#trust .trust-descriptions{
-    color: rgb(145, 145, 145);
-    font-size: 14px;
-}
-
-#products {
-    background-color: rgba(231, 231, 231, 0.788);
-    
-}
-
-#products .products-space{
-    padding-top: 4%;
-}
-
-#products span {
-    color:rgb(116, 116, 116);
-    font-size: 28px;
-}
-
-#products li {
-    color:rgb(116, 116, 116);
-    margin-left: 25px;
-}
-
-#products .products-titles {
-    color:#ED1C24;
-    font-size: 20px;
-    align-items: flex-start!important;
-}
-
-#products img{
-    width: inherit;
-}
-
-#products ul{
-    
-    padding-bottom: 0px;
-}
-
-#findus {
-    background-color:white;
-    padding-top: 20px;
-    
-}
-
-#findus .findus-space{
-    padding-top: 4%;
-}
-
-#findus span {
-    color:#ED1C24;
-    font-size: 28px;
-    
-}
-
-#findus label{
-    color:rgb(116, 116, 116);
-    margin-left: 25px;
-}
-
-#findus .findus-aliados span{
-    color:rgb(116, 116, 116);
-    font-size: 28px;
-}
-#findus .findus-aliados div{
-    background-color:rgba(231, 231, 231, 0.788);
-    padding-bottom: 20px;
-}
-
-#findus .clash-card {
+#automovil .clash-card {
     background: white;
     border-radius: $border-radius-size + 5;
-    text-align: center;
+    position: relative;
+    text-align: left;
     box-shadow: -1px 15px 30px -12px black;
-    width: 300px;
-    margin-top: 250px;
+    margin-bottom: 35px;
+    margin-left: 30px;
 }
 
-#findus .clash-card p{
-    margin-bottom: 5px;
+#automovil .clash-card__image {
+    background-color: #ED1C24;
+    position: relative;
+    height: 100px;
+    border-top-left-radius: $border-radius-size;
+    border-top-right-radius: $border-radius-size;
 }
 
-#findus #card{
-    margin-top: 200px;
+#automovil .clash-card__level {
+    margin-left: 20px;
 }
 
-#findus .clash-card-sm {
-    background: white;
-    border-radius: $border-radius-size + 5;
-    text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
-    margin-bottom: 30px;
+#automovil .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
-#findus .clash-card__unit-description {
+#automovil .slick-prev {
+    left: 100px;
+    z-index: 999;
+}
+
+#automovil .slick-next {
+    right: 100px;
+    z-index: 999;
+}
+
+#automovil .automovil-space{
+    padding-top: 4%;
+}
+
+#automovil p{
+    color:grey;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+#automovil .p-secundario{
+    color:black;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+
+#automovil .estrellas-secundarias{
+    margin-left: 5px; 
+    margin-top: 2.7rem;
+}
+
+#automovil .carousel{
     padding: 20px;
-    margin-bottom: 10px;  
-    color:rgb(116, 116, 116);
-    font-size: 12px;
 }
 
-#findus .titulo{
-    color:#ED1C24;
+#automovil .carousel-indicators{
+    bottom: -50px;
 }
 
-#findus .findus-space{
-    top: 0% !important;
-    padding-top: 4%;
+#automovil .imagen{
+    width: 100%;
 }
 
-#findus-sidebar img{
-	left: 0;
-    top: 30%;
-    z-index: 99;
-    margin-left: -15px;
-    width: 50px;
+#automovil label {
+    color:black;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: -5px;
 }
 
-#findus-sidebar img {
-	background: rgba(255, 255, 255, 0.877);
-	color: #fff;
-    text-decoration: none;
-	display: block;
-	height: 50px;
-	width: 50px;  
-	font-size: 24px;
-	line-height: 50px;
-	position: relative;
-	text-align: center;
-    cursor: pointer;
+#automovil .label-secundario {
+    color:black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: -5px;
 }
 
-#findus-map img{
-    margin-top: 2%;
-    height: 80%;
-	width: 80%; 
-}
+/*** testimonios ***/
 
 #testimony {
     padding-left: 50px;
@@ -422,14 +352,6 @@ hr {
     margin-left: 20px;
 }
 
-#testimony .clash-card__unit-description {
-    padding: 20px;
-    margin-bottom: 10px;  
-    color:rgb(116, 116, 116);
-    font-size: small;
-    text-align: justify;
-}
-
 #testimony .clearfix:after {
     visibility: hidden;
     display: block;
@@ -448,33 +370,51 @@ hr {
     right: 100px;
     z-index: 999;
 }
-#testimony .imagen{
-    vertical-align: middle;
-    border-style: none;
-    margin-left: 84%;
-    margin-top: -5%;
-}
-
-#testimony .imagen-pie{
-    vertical-align: middle;
-    border-style: none;
-    margin-left: 15px;
-    margin-top: 10px;
-}
 
 #testimony .testimony-space{
     padding-top: 4%;
 }
 
 #testimony p{
-    color:white;
-    font-size: 8px;
-    margin-left: 40px;
+    color:grey;
+    font-size: 10px;
     margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+#testimony .p-secundario{
+    color:black;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+
+#testimony .estrellas-secundarias{
+    margin-left: 5px; 
+    margin-top: 2.7rem;
 }
 
 #testimony .carousel-indicators{
-    bottom: -15px;
+    bottom: -50px;
+}
+
+#testimony .imagen{
+    width: 100%;
+}
+
+#testimony label {
+    color:black;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: -5px;
+}
+
+#testimony .label-secundario {
+    color:black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: -5px;
 }
 
 #news {
@@ -532,8 +472,8 @@ hr {
     margin-left: 14px;
 }
 
-#news #readMore a{
-    position: unset!important;
+#news #readMore {
+    display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 10px;
@@ -562,6 +502,121 @@ hr {
 
 #news .news-principal-description{
     margin-top: -100px;
+}
+
+#patrimonial {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#patrimonial span {
+    color:#ED1C24;
+    font-size: 28px;
+}
+
+#patrimonial .slide-container {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#patrimonial .carousel-indicators li {
+    padding-top: 5px;;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background-color: #ED1C24;
+  }
+
+#patrimonial .clash-card {
+    background: white;
+    border-radius: $border-radius-size + 5;
+    position: relative;
+    text-align: left;
+    box-shadow: -1px 15px 30px -12px black;
+    margin-bottom: 35px;
+    margin-left: 30px;
+}
+
+#patrimonial .clash-card__image {
+    background-color: #ED1C24;
+    position: relative;
+    height: 100px;
+    border-top-left-radius: $border-radius-size;
+    border-top-right-radius: $border-radius-size;
+}
+
+#patrimonial .clash-card__level {
+    margin-left: 20px;
+}
+
+#patrimonial .clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#patrimonial .slick-prev {
+    left: 100px;
+    z-index: 999;
+}
+
+#patrimonial .slick-next {
+    right: 100px;
+    z-index: 999;
+}
+
+#patrimonial .patrimonial-space{
+    padding-top: 4%;
+}
+
+#patrimonial p{
+    color:grey;
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+#patrimonial .p-secundario{
+    color:black;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+
+#patrimonial .estrellas-secundarias{
+    margin-left: 5px; 
+    margin-top: 0.7rem;
+}
+
+#patrimonial .carousel{
+    padding: 20px;
+}
+
+#patrimonial .carousel-indicators{
+    bottom: -50px;
+}
+
+#patrimonial .imagen{
+    width: 100%;
+}
+
+#patrimonial label {
+    color:black;
+    font-size: 25px;
+    margin-left: 15px;
+    margin-bottom: -5px;
+}
+
+#patrimonial .label-secundario {
+    color:black;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-bottom: -5px;
 }
 
 #footer {
