@@ -88,30 +88,38 @@ hr {
 }
 }
 
-@media only screen and (max-width: 400px) {
-    #header {
-        background-image: url(../img/principal_400.jpeg) !important;
+@media (max-width: 400px) {
+#header{
+        background-image: url(../img/principal_400.jpeg);
         background-size: cover;
-        background-position: left center;
-    }
-  }
-  
-  @media only screen and (max-width: 640px) {
-    #header {
-        background-image: url(../img/principal_600.jpeg) !important;
-        background-size: cover;
-        background-position: left center;
-    }
-  }
+        background-position: center center;
+}
+}
 
-  @media only screen and (max-width: 768px) {
-    #header {
-        background-image: url(../img/principal_768.jpeg) !important;
-        background-size: cover;
-        background-position: left center;
-       
+@media (max-width: 600px) {
+    #header{
+            background-image: url(../img/principal_600.jpeg);
+            background-size: cover;
+            background-position: center center;
     }
-  }
+}
+
+@media (max-width: 800px) {
+    #header{
+            background-image: url(../img/principal.jpg);
+            background-size: cover;
+            background-position: center center;
+    }
+}
+
+@media (max-width: 1200px) {
+    #header{
+            background-image: url(../img/home_3500.jpg);
+            background-size: cover;
+            background-position: center center;
+    }
+}
+
 
 /*SOCIAL MEDIA BAR*/
 
@@ -183,14 +191,25 @@ hr {
  
 }
 
-#header h1 {
+#header .takecare h1 {
     color: rgb(145, 145, 145);
-    font-size: 26px;  
+    font-family: 'Myriad Pro Bold', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
 }
 
 #header h2 {
     color: rgb(145, 145, 145);
-    font-size: 16px;
+    font-family: 'Myriad Pro Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header #easy h1 {
+    color: rgb(145, 145, 145);
+    font-family: 'Myriad Pro Bold', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #header .header-right {
@@ -237,7 +256,8 @@ hr {
 
 #statistics h1 {
     color: rgb(145, 145, 145);
-    font-size: 64px;  
+    font-size: 46px;
+    font-weight: bold;  
 }
 
 #statistics h2 {
@@ -466,6 +486,18 @@ hr {
     margin-left: 20px;
 }
 
+#testimony .clash-card__image .row .name {
+    color: rgb(255, 255, 255);
+    font-family: 'Myriad Pro Bold', sans-serif;
+    font-size: 9px; 
+}
+
+#testimony .clash-card__image .row .position {
+    color: rgb(255, 255, 255);
+    font-family: 'Myriad Pro Bold', sans-serif;
+    font-size: 8px; 
+}
+
 #testimony .clash-card__unit-description {
     padding: 20px;
     margin-bottom: 10px;  
@@ -672,7 +704,7 @@ hr {
 
 #footer  #copyright {
     color: rgb(75, 74, 74);
-    font-size: 11px;
+    font-size: 10px;
     margin-top: 0px;
 }
 
