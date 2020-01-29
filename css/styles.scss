@@ -176,10 +176,8 @@ hr {
     box-shadow: -1px 15px 30px -12px black;
     opacity: 0.85;
     width: 100%;
-    min-width: 300px;
-    max-width: 600px;
-    min-height: 300px;
-    max-height: 600px;
+    min-width: 360px;
+    max-width: 500px;
 }
 
 #header #cotizar{
@@ -605,10 +603,8 @@ hr {
     box-shadow: -1px 15px 30px -12px black;
     padding: 30px;
     width: 100%;
-    min-width: 300px;
-    max-width: 600px;
-    min-height: 300px;
-    max-height: 600px;
+    min-width: 360px;
+    max-width: 500px;
 }
 
 #footer a {
@@ -637,8 +633,6 @@ hr {
 }
 
 #footer #logo {
-    height: 120px;
-    width: 250px;
     padding-bottom: 20px;
 }
 
@@ -646,6 +640,10 @@ hr {
     color: rgb(75, 74, 74);
     font-size: 11px;
     margin-top: 0px;
+}
+
+#footer .footer-space{
+    padding-top: 4%;
 }
 
 #findus-sidebar img:hover {background: #8f9192;}
