@@ -41,16 +41,12 @@ hr {
     }
 }
 
+
 @media screen and (max-width: 600px) {
-    .news-principal-description { 
-    display:none;
-    }
-    }
-    @media screen and (max-width: 600px) {
-       .img-background { 
+    #news .img-background .btn{ 
         display:none;
         }
-        }
+}
 
 @media (max-width: 768px) {
     #findus .imagen-mapa{
@@ -84,6 +80,12 @@ hr {
     #news .news-principal-description{
         margin-top: 0px!important;
     }
+}
+
+@media (min-width: 1848px){
+    #news .news-principal-description{
+    margin-top: -70px!important;
+}
 }
 
 @media only screen and (max-width: 400px) {
