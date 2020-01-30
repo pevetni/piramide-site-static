@@ -35,7 +35,7 @@ hr {
     
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     #statistics {
         height: 200px!important;
     }
@@ -211,7 +211,6 @@ hr {
 }
 
 #statistics {
-    height: 100%;
     background-color: rgba(231, 231, 231, 0.788);
     padding-left: 50px;
     padding-right: 50px;
@@ -227,13 +226,8 @@ hr {
     font-size: 14px;
 }
 
-#statistics .container{
-    height: 100%!important;
-    width: 100%!important;
-}
-
 #statistics .row{
-    height: 80%!important;
+    height: 100%!important;
     width: 100%!important;
 }
 
