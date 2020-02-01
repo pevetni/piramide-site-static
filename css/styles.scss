@@ -24,13 +24,17 @@ hr {
     #testimony .imagen{
         vertical-align: middle;
         border-style: none;
-        margin-left: 70%!important;
+        margin-left: 62%!important;
         margin-top: -10%!important;
     }
 
     #header{
         padding-top: 12%!important;
         height: 80%!important;
+    }
+
+    #testimony .clash-card {
+        max-width: 250px!important;
     }
     
 }
@@ -427,7 +431,7 @@ hr {
     box-shadow: -1px 15px 30px -12px black;
     margin-bottom: 35px;
     margin-left: 30px;
-    width: 250px;
+    max-width: 100%;
 }
 
 #testimony .clash-card__image {
